@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/menu.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+</head>
+<body>
+<div class="blue"></div>
+<div class="gl-wrapper">
+	<header class="header">
+		<div class="header-wrapper clearfix">
+		<div class="menu-wrapper clearfix">
+		<div class="logo"></div>
+		<a href="index.html" class="title"><h1>Law Firm Name</h1></a>
+		<p>law firm name</p>
+			<nav>
+			<label type="button" id="toggle" class="menu-trigger">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</label>
+			<a class="tel" href="tel:+79684016230"></a>
+				<ul class="main-menu clearfix">
+					<li><a href="about.html" class="about">О&nbsp;нас</a></li>
+					<li><a href="service-list.html" class="group">Услуги</a></li>
+					<li><a href="#" class="cases">Дела</a></li>
+					<li><a href="contact.html" class="contact">Контакты</a></li>
+				</ul>
+				<ul class="social">
+					<li><a href="vk.com" class="vk" target="_blank"></a></li>
+					<li><a href="ok.ru" class="ok" target="_blank"></a></li>
+					<li><a href="fb.com" class="fb" target="_blank"></a></li>
+					<li><a href="https://api.whatsapp.com/send?phone=79684016230" class="wu" target="_blank"></a></li>
+				</ul>
+			</nav>
+		</div>
+		</div>
+	</header>
+	<div class="clear"></div>
+	<div class="content">
+		<div class="services-wrapper">
+			<div class="services-name">
+			<div class="service-space"></div>
+			<h4>
+				Услуги
+			</h4>
+			</div>
+			<div class="services">
+				<ul class="service-list">
+					<li><a href="services.html#consult"><span class="tabs-icon"><img src="img/question.svg" alt=""></span>
+					Консультация адвоката</a>
+					<p>Обращаясь к опытному адвокату вы исключите возможность получения пустой информации, которая ничего вам не даст. Консультации адвоката – это, прежде всего, предосторожность на будущее, ведь любую проблему или конфликт лучше урегулировать на стадии ее зарождения.</p></li>
+					<li><a href="services.html#family"><span class="tabs-icon"><img src="img/family.svg" alt=""></span>
+					Семейные дела</a><p>Семейные споры относятся к категории сложных дел, в которых большое значение могут иметь юридически значимые детали семейных отношений. Поэтому работа адвоката по семейным делам требует определенного такта и осторожности, аккуратного подхода к любой проблеме.</p></li>
+					<li><a href="services.html#house"><span class="tabs-icon"><img src="img/house.svg" alt=""></span>Жилищные споры</a><p>Жилищное право – один из самых сложных юридических вопросов вследствие многообразия возникающих жилищных споров и самой ценности объектов недвижимости.</p></li>
+					<li><a href="services.html#job"><span class="tabs-icon"><img src="img/work.svg" alt=""></span>Трудовые споры</a><p>К самым распространенным нарушениям законодательства со стороны работодателя можно отнести отсутствие трудового договора с работником, несвоевременную выплату (задержку) заработной платы, необоснованное увольнение, выдачу «черной» заработной платы в конверте.</p></li>
+					<li><a href="services.html#civil"><span class="tabs-icon"><img src="img/jury.svg" alt=""></span>Гражданские дела</a><p>Категория гражданских дел очень обширна и может включать в себя огромный спектр различных споров, возникающих между физическими лицами, обществом и государством.</p></li>
+					<li><a href="#"><span class="tabs-icon"><img src="img/tomb.svg" alt=""></span>Наследование</a></li>
+					<li><a href="#"><span class="tabs-icon"><img src="img/court.svg" alt=""></span>Защита в суде</a></li>
+					<li><a href="#"><span class="tabs-icon"><img src="img/handcuffs.svg" alt=""></span>Уголовные дела</a></li>
+					<li><a href="#"><span class="tabs-icon"><img src="img/wallet.svg" alt=""></span>Возмещение ущерба</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="form">
+		<h4>Узнайте, как мы сможем Вам помочь!</h4>
+			<form id="application" action=" application.php" method="POST" name=" application ">
+   		<input name="name" id="form-name" maxlength="20" placeholder="Ваше имя *" required />
+   			<input name="telephone" type="number" id="form-phone" maxlength="20" placeholder="Ваш  номер телефона *" required/>
+   		<input name="email" type="email" id="form-email" maxlength="20" placeholder="Ваш e-mail"/>
+  	 	<textarea id="form-mess" placeholder="Опишите вашу проблему"> </textarea>
+   		<button class="form-but" type="submit" form="application">Отправить заявку</button>
+</form>
+		</div>
+		
+		<footer class="clearfix">
+			<div class="footer-map">
+				<h5>Карта сайта</h5>
+				<ul>
+				<li><a href="about.html">О компании</a></li>
+				<li><a href="service-list.html">Услуги</a></li>
+				<li><a href="">Дела адвокатов</a></li>
+				</ul>
+			</div>
+			<div class="footer-contact">
+				<h5>Контактная информация</h5>
+				<p>+7(495)222-22-22</p>
+				<p>Электронная почта <a href="mailti:kuhmazova@mail.ru">kuhmazova@mail.ru</a><br /> 000111 г. Москва, ул. Чистякова, д. 2/1</p>
+				<a href="contact.html">Схема проезда</a>
+			</div>
+			<div class="footer-logo">
+				<span class="logo"></span>
+				<a href="index.html">
+					<h1>Law Firm Name</h1>
+				</a>
+				<p>&copy; 2017 Все права защищены. </p>
+			</div>
+		</footer>
+	</div>
+	</div>
+</body>
+</html>
