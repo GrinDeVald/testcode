@@ -1,0 +1,143 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+.header-topline{
+	background-color: #43484c;
+	padding: 15px 0;
+	color: #fff;
+}
+.header-topline a{
+	color: #fff;
+}
+.top-links{
+	display: inline-block;
+	vertical-align: middle;
+	z-index: 10;
+}
+.top-links a{
+	text-decoration: underline;
+}
+.top-links a:hover{
+	text-decoration: none;
+}
+.auth-button, .main-menu__button{
+	border: none;
+	font-size: 26px;
+	background-color: transparent;
+	outline: none;
+}
+.main-menu__button{
+	color: #fff;
+	padding: 8px 15px 0;
+}
+.soc-buttons{
+	float: right;
+}
+.soc-buttons > a{
+	font-size: 26px;
+	margin-left: 8px;
+}
+.logo{
+	display: block;
+	padding: 15px 0;
+	color: #fff;
+	font-family: "NautilusPompiliusRegular";
+	font-size: 42px;
+	text-align: center;
+}
+.top-header{
+	background-color: #4aaad2;
+}
+.main-menu{
+	background-color: #3797bf;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.main-menu a{
+	display: block;
+	color: #fff;
+	padding: 15px;
+	transition: all .25s
+}
+.main-menu a:hover{
+	background-color: #2787af;
+}
+.main-menu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float: left;
+	text-transform: uppercase;
+}
+.top-contacts{
+	float: right;
+	font-size: 32px;
+	padding: 0 15px;
+	background-color: #2787af;
+	line-height: 51px;
+}
+.main-menu ul li{
+	display: inline-block;
+}
+.main-menu ul{
+	z-index: 12;
+}
+h1{
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "RobotoCondensedLight";
+}
+.slider-container img{
+	max-width: 100%;
+}
+.slider-container{
+	position: relative;
+}
+.next_button, .prev_button{
+	color: #fff;
+	font-size: 46px;
+	position: absolute;
+	top: 40%;
+	z-index: 10;
+	cursor: pointer;
+	background-color: rgba(255,255,255, .5);
+	padding: 0 25px;
+	border-radius: 10em;
+}
+.next_button{
+	right: 20px;
+}
+.prev_button{
+	left: 20px;
+}
+section.order{
+	background-color: #eee;
+		padding: 25px 0;
+}
